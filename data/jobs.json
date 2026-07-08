@@ -1,0 +1,56 @@
+[
+    {
+        "job": "Data Analyst",
+        "skills": [
+            "python",
+            "sql",
+            "excel",
+            "power bi",
+            "statistics"
+        ]
+    },
+
+    {
+        "job": "Machine Learning Engineer",
+        "skills": [
+            "python",
+            "numpy",
+            "pandas",
+            "machine learning",
+            "tensorflow"
+        ]
+    },
+
+    {
+        "job": "Backend Developer",
+        "skills": [
+            "java",
+            "spring boot",
+            "sql",
+            "git",
+            "rest api"
+        ]
+    },
+
+    {
+        "job": "Frontend Developer",
+        "skills": [
+            "html",
+            "css",
+            "javascript",
+            "react",
+            "git"
+        ]
+    },
+
+    {
+        "job": "DevOps Engineer",
+        "skills": [
+            "linux",
+            "docker",
+            "git",
+            "aws",
+            "kubernetes"
+        ]
+    }
+]

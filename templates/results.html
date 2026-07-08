@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+    <h1>Recommended Jobs 🚀</h1>
+
+    <p>
+        Your Skills: {{ user_skills }}
+    </p>
+
+    <hr>
+
+    {% for item in recommendations %}
+
+        <h2>{{ item.job }}</h2>
+
+        <p>
+            Match Percentage: {{ item.percentage }}%
+        </p>
+
+        <p>
+            ✅ Matched Skills:
+            {{ item.matched_skills }}
+        </p>
+
+        <p>
+            ❌ Missing Skills:
+            {{ item.missing_skills }}
+        </p>
+
+        <hr>
+
+    {% endfor %}
+
+</body>
+</html>

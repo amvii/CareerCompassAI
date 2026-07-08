@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Your Skills</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+    <h1>Enter Your Skills 💻</h1>
+
+    <p>
+        Example: Python, SQL, Java, React, Git
+    </p>
+
+    <form action="/recommend" method="POST">
+
+        <input
+            type="text"
+            name="skills"
+            placeholder="Enter skills separated by commas"
+            size="50"
+            required
+        >
+
+        <br><br>
+
+        <button type="submit">
+            Find Jobs
+        </button>
+
+    </form>
+
+</body>
+</html>
